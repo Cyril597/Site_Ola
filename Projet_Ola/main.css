@@ -1,20 +1,12 @@
 
-
-.container-fluid{display: flex;
-                flex-direction: column;
-                /**background-image: url(Minimalist\ Sale\ Website\ Banner.png);**/
-                background-size: 500px;
-                background-position-y: -35px;
-                background-position-x: -80px;
-                padding: 1%;
-                z-index: 1;
-               }
-
-
 .navbar{/*background: linear-gradient(to top, rgba(0,0,0,0.2), rgba(255,255,255,1));*/
         margin: 0%;
         padding: 0%;
+        position: fixed;
+        width: 100%;
         z-index: 1;
+        padding-left: 2%;
+        background:linear-gradient(to top,rgba(255,255,255,0),rgba(255,255,255,0.7));
         /*box-shadow: 0px 0px 30px 5px;*/}
 
 
@@ -32,7 +24,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-items: center;
             }
 
 .nav-item{margin-right:5%;}
@@ -52,7 +44,15 @@
 #bouteille{position: relative;
             top: -50px;
             }
+#video{width: 100%;
+        }
 
+video{  object-fit: cover;
+        width: 100%;
+        height: 630px;
+        box-shadow: 0px 0px 50px 10px ;
+        margin-bottom: 1%;
+        }
 
 /**Fin Header**/
 
@@ -61,7 +61,7 @@
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
-        margin-top: 5%;
+        padding-top: 8%;
         background-image: url();
         }
 
@@ -86,181 +86,102 @@
         margin-left: 35%;}
 
 /**Debut Section Kombucha**/
-
+#menu{position: relative;
+        top:10px}
 #bouteille{position: relative;
-            top:120px;
+            top:250px;
             display: flex;
             flex-direction: column;
             align-items: center;
+        width: 100%;
+        
             }
 
-#bouteille h1{margin-bottom: 5%;
-            color: white;
-            font-family: 'Fredericka the Great', cursive;}
+#bouteille_2{padding-bottom: 2%;}
+
+#bouteille h1{margin-bottom: 3%;
+            color: Black;
+            font-family: 'Fredericka the Great', cursive;
+        padding-top: 2%;
+        }
 
 #description{position: relative;
             display: flex;
             flex-direction: column;
             align-items: center;
-            right: 300px;
-            bottom:400px;
+            right: 210px;
+            bottom:120px;
             }
 
             #description_2{position: relative;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                left: 250px;
-                bottom:900px;
+                left: 350px;
+                bottom:400px;
+                width: 50%;
                 }
 
 
-#description p , #description_2 p {margin-bottom: 8%;
+#description p , #description_2 p {margin-bottom: 12%;
                 font-size: 1.6em;
-            color: white;
+            color: Black;
             font-family: 'Fredericka the Great', cursive;}
 
-#description p{transform: rotate(-20deg);}
+#description p{transform: rotate(-20deg);
+                }
 
-#description_2 p{transform: rotate(20deg);}
+#description_2 p{transform: rotate(20deg);
+                padding-bottom: 10%;}
 
 #kombucha{
         background:linear-gradient(to top , rgb(255,255,255),rgb(250,241,212),rgb(250,241,212),rgb(255,255,255));
-        }
-
-#fleche1{position: relative;
-        bottom:1360px;
-        left:670px;}
-
-        #fleche2{position: relative;
-            bottom:1170px;
-            left:470px;}
-
-            #fleche3{position: relative;
-                bottom:980px;
-                left:270px;}
-
-/**main {display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-content: center;
-
-
-}
-
-
-#explication{width: 40%;
-        text-align: center;
+        height: 1100px;
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-items: center;
-         margin-top: 2%;
-        margin-left: 13%;   }
-
-#Logo_2{margin-left: 22%;}
-
-main{margin-top: 3%;}
-
-#explication h1 {margin-bottom: 5%;
-                font-size: 3em;}
-
-#explication p {
-                font-size: 1.3em;}
-
-
-#kombucha{background-image: url(OIP_1.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        border-radius: 10px;
-        position: relative;
-        right:150px;
-        width: 120%;
-        height: 730px;}
-
-
-#bouteille{position: relative;
-            top:20px;
-            left:240px;}
-
-#description {position: relative;
-            bottom:450px;
-            left: 100px;
-            }
-
-#description p { color: white;
-                margin-bottom: 15%;
-                font-size: 1.7em;
-                font-family: 'Fredericka the Great', cursive;}
-
-#description p:first-child{position: relative;
-                            bottom: 220px;
-                            right: 100px;
-                            transform: rotate(-20deg);
-}                                  
-
-#description p:nth-child(2){position: relative;
-                            transform: rotate(20deg);
-                            top:60px;
-                            right: 50px;}
-
-
-#description p:last-child{position: relative;
-                            top:0px;
-                            transform: rotate(-5deg);}
-
-
-                            #description_2 {position: relative;
-                                bottom:750px;
-                                left: 550px;
-                                }
-                    
-                    #description_2 p { color: white;
-                                    margin-bottom: 15%;
-                                    font-size: 1.7em;
-                                    font-family: 'Fredericka the Great', cursive;}
-                    
-                    #description_2 p:first-child{position: relative;
-                                                bottom: 90px;
-                                                right: 30px;
-                                                transform: rotate(20deg);
-                    }                                  
-                
-                    
-                    #description_2 p:last-child{position: relative;
-                        top:50px;
-                        right: 20px;
-                                                transform: rotate(20deg);}
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;}
 
 
 #fleche1{position: relative;
-        bottom:1320px;
-        left:70px;}
-
+        bottom:700px;
+        left:130px;}
 
         #fleche2{position: relative;
-            bottom:1080px;
-            right:120px;
-            transform: rotate(25deg);}
+            bottom:580px;
+            right:50px;}
 
             #fleche3{position: relative;
-                bottom:940px;
-                right:270px;
-                transform:rotateX(180deg);}
-
+                bottom:470px;
+                right:180px;}
 
                 #fleche4{position: relative;
-                    bottom:1350px;
-                    left:420px;
-                    transform:rotateY(180deg);}
+                        bottom:640px;
+                        right:50px;
+                        transform: rotateY(180deg);}
 
-                    #fleche5{position: relative;
-                        bottom:1050px;
-                        left:250px;
-                        transform:rotateY(180deg);}
+                        #fleche5{position: relative;
+                                bottom:520px;
+                                right:160px;
+                                transform: rotateY(180deg);}
+        
 
-#kombucha h1 {position: relative;
-                left: 120px;
-                top:20px;
-                color:white;
-                font-family: 'Fredericka the Great', cursive;}**/
+
+
+
+#S_Bouteille{position: relative;
+                bottom:200px;}
+                
+
+.accordion{width: 30%;
+        position:relative;
+        bottom:180px;
+        }
+.accordion-item{background-color:rgba(250,241,212,0);
+                border: 2px lightgrey solid ;
+                }
+
+.accordion-button{background-color: rgba(250,241,212,0);
+                color: black;
+                margin-bottom: 5%;
+        }
