@@ -47,48 +47,52 @@
         color: black;
         /* border: 2px solid; */
         /* border-radius: 20px; */
-        background-image: url(Assets/SVG/blob10.svg);
+        background-image: url(Assets/SVG/magicpattern-blob-1685627132239.svg);
         background-repeat: no-repeat;
         background-size: contain;
 
         }
-#logo {
-
-        background-image: url(Assets/SVG/blob21.svg);
-        background-repeat: no-repeat;
-        background-size: contain;
-
-}
-
+/*  */
 #nav-link-accueil {
-        background-image: url(Assets/SVG/blob2.svg);
+        background-image: url(Assets/SVG/blob10pxsvg.svg);
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: 106px;
+        background-position: center;
 }
-#nav-item-pro {
-        background-image: url(Assets/SVG/blob3.svg);
+#nav-link-pro {
+        background-image: url(Assets/SVG/blob1.svg);
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
+        background-position: center;
 }
 #nav-link-particulier {
-        background-image: url(Assets/SVG/blob4.svg);
+        background-image: url(Assets/SVG/blob2.svg);
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
+        background-position: center;
 }
 #nav-link-traiteur {
-        background-image: url(Assets/SVG/blob5.svg);
+        background-image: url(Assets/SVG/blob3.svg);
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: 110px;
+        background-position: center;
 }
 #nav-link-fermente {
-        background-image: url(Assets/SVG/blob6.svg);
+        background-image: url(Assets/SVG/blob4.svg);
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: 120px;
+        background-position: center;
 }
 #nav-link-contact {
-        background-image: url(Assets/SVG/blob7.svg);
+        background-image: url(Assets/SVG/blob5.svg);
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: 110px;
+        background-position: center;
+}
+
+.blobdiv a {
+
+    padding: 50px;
 }
 
 .nav-link:hover{border-bottom: 2px solid !important;
@@ -98,9 +102,7 @@
             top: -50px;
             }
 
-
 /**Fin Header**/
-
 
 #marque{display: flex;
         flex-direction: row;
@@ -121,7 +123,6 @@
 #explication p {font-size: 1.7em;
                 padding: 5%;
                 color: rgb(80,80,80);}
-
 
 /**Fin Secion Marque**/
 
@@ -159,7 +160,6 @@
                 bottom:900px;
                 }
 
-
 #description p , #description_2 p {margin-bottom: 8%;
                 font-size: 1.6em;
             color: white;
@@ -190,10 +190,19 @@ form, input, option, label, select, .titre-contact {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         text-align: center;
         padding: 25px;
-        margin-left: 300px;
-        margin-right: 300px;
+
+        
+}
+
+.submitbuttonclass {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
 }
 
@@ -219,7 +228,7 @@ input, select, option {
 
 #submit-button {
 
-        background-image: url(Assets/SVG/magicpattern-blob-1685627132239.svg);
+        background-image: url(Assets/SVG/blob6.svg);
         background-size: cover;
         background-repeat: no-repeat;
 	color: rgb(126, 126, 126);
@@ -228,28 +237,44 @@ input, select, option {
 	width: 100px;
 	font: bold15px arial,sans-serif;
 	text-shadow: none;
-
-      
         
 }
 
 .submitbuttonclass {
 
-        padding-left: 7%;
         width: 1050px;
-        height: 1050px;
 }
 
-svg {
+textarea {
 
-        width: 150px;
-        margin-left: 33%;
-
-}
-
-p {
-
-        z-index: 1;
+        width: 24%;
+        height: 200px;
 
 }
 
+.footer-items {
+
+        display: flex;
+        justify-content: center;
+
+}
+
+.footer-items li {
+
+        padding: 25px;
+        list-style: none;
+
+}
+
+a:link, a:visited {
+
+        text-decoration: none;
+        color: black;
+
+}
+
+/* RESPONSIVE */
+
+/* @media screen and (max-width: 992px) {
+
+} */
