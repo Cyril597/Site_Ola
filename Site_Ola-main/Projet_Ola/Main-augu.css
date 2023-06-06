@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Josefin+Sans:wght@100;300&display=swap');
+
+.container-fluid {
+        
+        display: flex;
+        flex-direction: column;
+        /**background-image: url(Minimalist\ Sale\ Website\ Banner.png);**/
+        background-size: 500px;
+        background-position-y: -35px;
+        background-position-x: -80px;
+        padding: 1%;
+        z-index: 1;
+
+}
+
+.navbar {
+        
+        /*background: linear-gradient(to top, rgba(0,0,0,0.2), rgba(255,255,255,1));*/
+        margin: 0%;
+        padding: 0%;
+        z-index: 1;
+        padding-left: 2%;
+        /*box-shadow: 0px 0px 30px 5px;*/
+
+}
+
+#ensemble {
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+}
+
+.collapse {
+        
+        width: 100%;
+        padding-left: 3%;
+        
+}
+
+#page {
+        
+        width: 100%; 
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+            
+}
+
+.nav-item {
+        
+        margin-right: 5%;
+
+}
+
+.nav-item:nth-child(5) {
+        
+        margin-left: 5%;
+
+}
+
+.nav-link {
+        
+        font-size: 1.5em;
+        font-weight: 600;
+        color: black;
+        /* border: 2px solid; */
+        /* border-radius: 20px; */
+        background-image: url(Assets/SVG/magicpattern-blob-1685627132239.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+
+}
+
+#nav-link-accueil {
+
+        background-image: url(Assets/SVG/blob10pxsvg.svg);
+        background-repeat: no-repeat;
+        background-size: 106px;
+        background-position: center;
+}
+
+#nav-link-pro {
+
+        background-image: url(Assets/SVG/blob1.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+}
+
+#nav-link-particulier {
+
+        background-image: url(Assets/SVG/blob2.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+}
+
+#nav-link-traiteur {
+
+        background-image: url(Assets/SVG/blob3.svg);
+        background-repeat: no-repeat;
+        background-size: 110px;
+        background-position: center;
+}
+
+#nav-link-fermente {
+
+        background-image: url(Assets/SVG/blob4.svg);
+        background-repeat: no-repeat;
+        background-size: 120px;
+        background-position: center;
+}
+
+#nav-link-contact {
+
+        background-image: url(Assets/SVG/blob5.svg);
+        background-repeat: no-repeat;
+        background-size: 110px;
+        background-position: center;
+}
+
+.blobdiv a {
+
+    padding: 50px;
+}
+
+.nav-link:hover {
+        
+        border-bottom: 2px solid !important;
+        color: black;
+
+}
+
+#bouteille {
+        
+        position: relative;
+        top: -50px;
+
+}
+
+/**Fin Header**/
+
+#marque {
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 5%;
+        background-image: url();
+
+}
+
+#explication {
+        
+        text-align: center;
+        width: 50%;
+
+}
+
+#explication h1 {
+        
+        font-size: 4em;
+        padding-top: 5%;
+        margin-bottom: 5%;
+        color: black;
+
+}
+
+#explication p {
+        
+        font-size: 1.7em;
+        padding: 5%;
+        color: rgb(80,80,80);
+
+}
+
+/**Fin Section Marque**/
+
+.trait { 
+        
+        border-bottom: 2px solid;
+        width: 30%;
+        padding-top: 4%;
+        margin-left: 35%;
+
+}
+
+/**Debut Section Kombucha**/
+
+#bouteille {
+        
+        position: relative;
+        top: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+            
+}
+
+#bouteille h1 {
+        
+        margin-bottom: 5%;
+        color: white;
+        font-family: 'Fredericka the Great', cursive;
+
+}
+
+#description {
+        
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        right: 300px;
+        bottom: 400px;
+
+}
+
+#description_2 {
+        
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        left: 250px;
+        bottom: 900px;
+                
+}
+
+#description p , #description_2 p {
+        
+        margin-bottom: 8%;
+        font-size: 1.6em;
+        color: white;
+        font-family: 'Fredericka the Great', cursive;
+
+}
+
+#description p {
+        
+        transform: rotate(-20deg);
+
+}
+
+#description_2 p {
+        
+        transform: rotate(20deg);
+
+}
+
+#kombucha {
+
+        background: linear-gradient(to top , rgb(255,255,255),rgb(250,241,212),rgb(250,241,212),rgb(255,255,255));
+        
+}
+
+#fleche1 {
+        
+        position: relative;
+        bottom: 1360px;
+        left: 670px;
+
+}
+
+#fleche2 {
+                
+        position: relative;
+        bottom: 1170px;
+        left: 470px;
+
+}
+
+#fleche3 {
+        
+        position: relative;
+        bottom: 980px;
+        left: 270px;
+
+}
+
+/* FOOTER */
+
+.footer-items {
+
+        display: flex;
+        justify-content: center;
+
+}
+
+.footer-items li {
+
+        padding: 25px;
+        list-style: none;
+
+}
+
+a:link, a:visited {
+
+        text-decoration: none;
+        color: black;
+
+}
+
+.footer-items {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-right: 7%;
+
+}
+
+footer {
+
+        margin: 0%;
+        padding: 0%;
+
+}
+
+/* RESPONSIVE */
+
+/* @media screen and (max-width: 992px) {
+
+} */
