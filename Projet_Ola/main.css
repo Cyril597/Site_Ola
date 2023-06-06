@@ -5,7 +5,7 @@
         position: fixed;
         width: 100%;
         z-index: 1;
-        padding-left: 2%;
+        padding-left: 5%;
         background:linear-gradient(to top,rgba(255,255,255,0),rgba(255,255,255,0.7));
         /*box-shadow: 0px 0px 30px 5px;*/}
 
@@ -27,19 +27,58 @@
     justify-items: center;
             }
 
+
 .nav-item{margin-right:5%;}
 
 .nav-item:nth-child(5){margin-left: 5%;}
 
-.nav-link{font-size: 1.5em;
+.nav-link{font-size: 1.8em;
             font-weight: 600;
             color: black;
-            border: 2px solid;
-            border-radius: 20px;
+            font-family: 'Pompiere', cursive;
+            width: 110%;
+            padding: 30%;
         }
 
-.nav-link:hover{border-bottom: 2px solid !important;
-                color: black;}
+        #nav-link-accueil {
+                background-image: url(SVG/blob10pxsvg.svg);
+                background-repeat: no-repeat;
+                background-size: 102px;
+                background-position: center;
+        }
+        #nav-link-pro {
+                background-image: url(SVG/blob1.svg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+        }
+        #nav-link-particulier {
+                background-image: url(SVG/blob2.svg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+        }
+        #nav-link-traiteur {
+                background-image: url(SVG/blob3.svg);
+                background-repeat: no-repeat;
+                background-size: 118px;
+                background-position: center;
+        }
+        #nav-link-fermente {
+                background-image: url(SVG/blob4.svg);
+                background-repeat: no-repeat;
+                background-size: 120px;
+                background-position: center;
+        }
+        #nav-link-contact {
+                background-image: url(SVG/blob5.svg);
+                background-repeat: no-repeat;
+                background-size: 110px;
+                background-position: center;
+                
+        }
+
+
 
 #bouteille{position: relative;
             top: -50px;
@@ -56,13 +95,21 @@ video{  object-fit: cover;
 
 /**Fin Header**/
 
+#T_V{position: absolute;
+        top: 300px;
+        left: 550px;
+        font-size: 1.8em;
+        width: 30%;
+        text-align: center;
+        color: white;
+        font-family: 'Pompiere', cursive;}
 
 #marque{display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
         padding-top: 8%;
-        background-image: url();
+        padding-bottom:4%;
         }
 
 #explication {text-align: center;
@@ -87,7 +134,9 @@ video{  object-fit: cover;
 
 /**Debut Section Kombucha**/
 #menu{position: relative;
-        top:10px}
+        top:10px;
+        }
+
 #bouteille{position: relative;
             top:250px;
             display: flex;
@@ -100,7 +149,7 @@ video{  object-fit: cover;
 #bouteille_2{padding-bottom: 2%;}
 
 #bouteille h1{margin-bottom: 3%;
-            color: Black;
+            color: black;
             font-family: 'Fredericka the Great', cursive;
         padding-top: 2%;
         }
@@ -125,7 +174,7 @@ video{  object-fit: cover;
 
 #description p , #description_2 p {margin-bottom: 12%;
                 font-size: 1.6em;
-            color: Black;
+            color: black;
             font-family: 'Fredericka the Great', cursive;}
 
 #description p{transform: rotate(-20deg);
@@ -136,11 +185,13 @@ video{  object-fit: cover;
 
 #kombucha{
         background:linear-gradient(to top , rgb(255,255,255),rgb(250,241,212),rgb(250,241,212),rgb(255,255,255));
-        height: 1100px;
+        height: 1200px;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        align-items: center;}
+        align-items: center;
+        padding-top: 5%;
+        margin-bottom: 10%;}
 
 
 #fleche1{position: relative;
@@ -173,9 +224,11 @@ video{  object-fit: cover;
                 bottom:200px;}
                 
 
+/**Liste Deroulante**/
+
 .accordion{width: 30%;
         position:relative;
-        bottom:180px;
+        bottom:100px;
         }
 .accordion-item{background-color:rgba(250,241,212,0);
                 border: 2px lightgrey solid ;
@@ -183,5 +236,49 @@ video{  object-fit: cover;
 
 .accordion-button{background-color: rgba(250,241,212,0);
                 color: black;
-                margin-bottom: 5%;
+                margin:1%;
         }
+
+.ingredients{list-style-type: circle;}
+
+/**Fin Liste **/
+
+
+/**Debut section carte**/
+
+iframe{border-radius: 5%;}
+
+#lieu{display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 600px;}
+
+#info_lieu{width: 40%;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+        position: relative;
+        bottom: 75px;}
+
+
+/**Fin Section carte**/
+
+/**Debut Section Remerciment**/
+
+#Merci{display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 5%;
+        height: 800px;
+        width: 100%;}
+
+
+#Img{display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;}
+
+

@@ -17,7 +17,7 @@
     />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Dr+Sugiyama&family=Fredericka+the+Great&family=Pompiere&display=swap" rel="stylesheet">
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
 </head>
@@ -40,16 +40,16 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul id="page" class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Accueil</a>
+                <li class="nav-item" >
+                    <a class="nav-link" id="nav-link-accueil" aria-current="page" href="Accueil.html">Accueil</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"
+                <li class="nav-item" >
+                    <a class="nav-link" id="nav-link-pro" href="#"
                     >Professionnel</a
                     >
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Particulier</a>
+                    <a class="nav-link" id="nav-link-particulier" href="#">Particulier</a>
                 </li>
                 <img
                 id="logo"
@@ -59,22 +59,23 @@
                 height="150"
                 />
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Traiteur</a>
+                    <a class="nav-link" id="nav-link-traiteur" href="#">Traiteur</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"
+                    <a class="nav-link" id="nav-link-fermente" href="presentation.html"
                     >Qui fermente ?</a
                     >
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"
+                    <a class="nav-link" id="nav-link-contact" href="#"
                     >Contact</a
                     >
                 </li>
             </div>
       </nav>
       <div id="video">
-        <video src="TestV1.mp4" alt="video" loop autoplay></video>
+        <h1 id="T_V">Le Kombucha, rafraichissante et bonne pour votre santé</h1>
+        <video src="TestV1.mp4" alt="video" loop autoplay muted></video>
       </div>
       <div class="trait">
                             
@@ -84,7 +85,7 @@
     <main>
         <section id="marque">
             <div id="image_marque">
-                <img  id="Logo_2" src="Fichiers PNG SSBG/logo.png" alt="logo" width="550" height="475">   
+                <img  id="Logo_2" src="Fichiers_PNG_SSBG/logo.png" alt="logo" width="550" height="475">   
             </div>
             <div id="explication">
                 <h1>Le Kombu-quoi ?</h1>
@@ -105,7 +106,7 @@
                   </h2>
                   <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                      <ul>
+                      <ul class="ingredients">
                         <li>
                             Eau
                         </li>
@@ -139,7 +140,7 @@
                   </h2>
                   <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <ul>
+                        <ul class="ingredients">
                             <li>
                                 Rafraîchissant
                             </li>
@@ -173,7 +174,7 @@
                   </h2>
                   <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <ul>
+                        <ul class="ingredients">
                             <li>
                                 Eau
                             </li>
@@ -199,7 +200,7 @@
                     </div>
                   </div>
                 </div>
-                </div>
+            </div>
             </div>
             <div id="menu">
                 <div id="bouteille">
@@ -225,6 +226,34 @@
         <div  id="S_Bouteille"class="trait">
                             
         </div>
+        <section id="lieu">
+            <div id="carte">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2530.748045082086!2d3.0245796766056103!3d50.631797171627326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d51cc82e10c1%3A0x2e70a41cee295af9!2sTok&#39;ici!5e0!3m2!1sfr!2sfr!4v1685697774001!5m2!1sfr!2sfr" width="600" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            
+            </div>
+            <div id="info_lieu">
+                <h1>Un Kombucha ?</h1>
+                <h2>Rejoigniez nous pour goutez votre verre en toute convivialité </h2>
+                <h3>Vous pouvez nous rencontrer au Tok'ici toute la semaine</h3>
+                <h3>173 Rue des Bois Blancs, 59000 Lille</h3>
+           </div>
+        </section>
+        <div class="trait">
+                            
+        </div>
+        <section id="Merci">
+            <div id="remerciment">
+                <h1>Nos Remerciments</h1>
+            </div>
+            <div id="Img">
+                <div>
+                <img src="tokici.png" alt="tokici"width="300px">
+                </div>
+                <div>
+                <img src="houblon.png" alt="houblon" width="300px">
+                </div>
+           </div>
+        </section>
+        
     </main>
 
     <footer>
