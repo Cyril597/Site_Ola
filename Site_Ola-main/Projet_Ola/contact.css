@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Josefin+Sans:wght@100;300&display=swap');
 
-
-
 form, input, option, label, select, .titre-contact {
 
     display: flex;
@@ -47,18 +45,19 @@ input, select, option {
     background-image: url(Assets/SVG/blob6.svg);
     background-size: cover;
     background-repeat: no-repeat;
-color: rgb(126, 126, 126);
-border: none;
-height: 100px;
-width: 100px;
-font: bold15px arial,sans-serif;
-text-shadow: none;
+    color: rgb(126, 126, 126);
+    border: none;
+    height: 100px;
+    width: 100px;
+    font: bold15px arial,sans-serif;
+    text-shadow: none;
     
 }
 
 .submitbuttonclass {
 
     width: 1050px;
+
 }
 
 textarea {
@@ -77,33 +76,34 @@ textarea {
 
 }
 
-    .footer-items li {
+/* FOOTER */
 
-        padding: 25px;
-        list-style: none;
+.footer-items li {
+
+    padding: 25px;
+    list-style: none;
+    
+}
+    
+a:link, a:visited {
+    
+    text-decoration: none;
+    color: black;
     
     }
     
-    a:link, a:visited {
+.footer-items {
     
-        text-decoration: none;
-        color: black;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 7%;
+
     }
-    
-    .footer-items {
-    
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding-right: 7%;
-    }
-    
 
+#paracontact {
 
-    #paracontact {
-
-        width: 300px;
+    width: 300px;
     
     }
