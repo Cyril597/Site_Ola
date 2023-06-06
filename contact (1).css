@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Josefin+Sans:wght@100;300&display=swap');
+
+form, input, option, label, select, .titre-contact {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+    
+}
+
+.submitbuttonclass {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+input, select, option {
+
+    background: #ffffff;
+    border-color: #dfdfdf;
+
+}
+
+#message {
+
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+
+* {
+
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+#submit-button {
+
+    background-image: url(Assets/SVG/blob6.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(126, 126, 126);
+    border: none;
+    height: 100px;
+    width: 100px;
+    font: bold15px arial,sans-serif;
+    text-shadow: none;
+    
+}
+
+.submitbuttonclass {
+
+    width: 1050px;
+
+}
+
+textarea {
+
+    width: 24%;
+    height: 200px;
+
+}
+
+.trait { 
+    
+    border-bottom: 2px solid;
+    width: 30%;
+    padding-top: 4%;
+    margin-left: 35%;
+
+}
+
+/* FOOTER */
+
+.footer-items li {
+
+    padding: 25px;
+    list-style: none;
+    
+}
+    
+a:link, a:visited {
+    
+    text-decoration: none;
+    color: black;
+    
+    }
+    
+.footer-items {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 7%;
+
+    }
+
+#paracontact {
+
+    width: 300px;
+    
+    }

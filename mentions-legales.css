@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Josefin+Sans:wght@100;300&display=swap');
+
+.trait { 
+    
+    border-bottom: 2px solid;
+    width: 30%;
+    padding-top: 4%;
+    margin-left: 35%;
+
+}
+
+* {
+
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+h1, .para1 {
+
+    text-align: center;
+    width: 50%;
+    padding-top: 40px;
+
+}
+
+#mentions-legales-text {
+
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.footer-items li {
+
+    padding: 25px;
+    list-style: none;
+
+}
+
+a:link, a:visited {
+
+    text-decoration: none;
+    color: black;
+
+}
+
+/* FOOTER */
+
+.footer-items {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 7%;
+}
+
+footer {
+
+    position: absolute;
+    bottom: 0%;
+    left: 25.5%
+}
+
+#paracontact {
+
+    width: 300px;
+
+}
