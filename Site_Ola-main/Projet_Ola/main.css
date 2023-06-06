@@ -51,7 +51,7 @@
 
 .nav-item {
         
-        margin-right:5%;
+        margin-right: 5%;
 
 }
 
@@ -194,7 +194,7 @@
 #bouteille {
         
         position: relative;
-        top:120px;
+        top: 120px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -216,7 +216,7 @@
         flex-direction: column;
         align-items: center;
         right: 300px;
-        bottom:400px;
+        bottom: 400px;
 
 }
 
@@ -227,7 +227,7 @@
         flex-direction: column;
         align-items: center;
         left: 250px;
-        bottom:900px;
+        bottom: 900px;
                 
 }
 
@@ -254,31 +254,31 @@
 
 #kombucha {
 
-        background:linear-gradient(to top , rgb(255,255,255),rgb(250,241,212),rgb(250,241,212),rgb(255,255,255));
+        background: linear-gradient(to top , rgb(255,255,255),rgb(250,241,212),rgb(250,241,212),rgb(255,255,255));
         
 }
 
 #fleche1 {
         
         position: relative;
-        bottom:1360px;
-        left:670px;
+        bottom: 1360px;
+        left: 670px;
 
 }
 
 #fleche2 {
                 
         position: relative;
-        bottom:1170px;
-        left:470px;
+        bottom: 1170px;
+        left: 470px;
 
 }
 
 #fleche3 {
         
         position: relative;
-        bottom:980px;
-        left:270px;
+        bottom: 980px;
+        left: 270px;
 
 }
 
