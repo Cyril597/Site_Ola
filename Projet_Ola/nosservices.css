@@ -35,3 +35,21 @@ img{
     .option-show{
         display:none;
     }
+
+    .form{
+        width: 20%;
+        height: 40px;
+        border: 1px solid #999;
+        font-size: 18px;
+        color: #000000;
+        background-color: #eee;
+        border-radius: 5px;
+        box-shadow: 4px 4px #ccc;
+    }
+
+    .formdiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
