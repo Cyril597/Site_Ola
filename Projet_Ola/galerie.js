@@ -54,10 +54,11 @@ fetch("Galerie_Ola.json")
             image4.setAttribute("src", data.Image_4);
             image5.setAttribute("src", data.Image_5);
             image6.setAttribute("src", data.Image_6);
-            image7.setAttribute("src", data.Image_7);
+            image7.setAttribute("src", data.Image_7); 
             image8.setAttribute("src", data.Image_8);
             image9.setAttribute("src", data.Image_9);
             image10.setAttribute("src", data.Image_10);
             image11.setAttribute("src", data.Image_11);
             image12.setAttribute("src", data.Image_12);
+
 })

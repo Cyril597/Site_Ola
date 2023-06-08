@@ -31,3 +31,7 @@ img{
     width: 50%;
     height: 650px;
     }
+
+    .option-show{
+        display:none;
+    }
