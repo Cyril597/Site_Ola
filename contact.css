@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Josefin+Sans:wght@100;300&display=swap');
+
+.navbar{/*background: linear-gradient(to top, rgba(0,0,0,0.2), rgba(255,255,255,1));*/
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    background:linear-gradient(to top,rgba(255,255,255,0),rgba(255,255,255,0.7));
+    /*box-shadow: 0px 0px 30px 5px;*/}
+
+
+#ensemble{display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+
+.collapse{width: 100%;
+    }
+
+#page{width: 100%; 
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+padding-left: 3%;
+padding-right:2%
+
+        }
+
+
+
+.nav-link{font-size: 1.8em;
+        font-weight: 400;
+        color: black;
+        font-family: 'Pompiere', cursive;
+        width: 110%;
+        padding: 30%;
+    }
+
+    #nav-link-galerie {
+            background-image: url(SVG/blob10pxsvg.svg);
+            background-repeat: no-repeat;
+            background-size: 102px;
+            background-position: center;
+    }
+    #nav-link-pro {
+            background-image: url(SVG/blob1.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+    }
+    #nav-link-fermente {
+            background-image: url(SVG/blob4.svg);
+            background-repeat: no-repeat;
+            background-size: 120px;
+            background-position: center;
+    }
+    #nav-link-contact {
+            background-image: url(SVG/blob5.svg);
+            background-repeat: no-repeat;
+            background-size: 110px;
+            background-position: center;
+            
+    }
+form, input, option, label, select, .titre-contact {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+    
+}
+
+.submitbuttonclass {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+input, select, option {
+
+    background: #ffffff;
+    border-color: #dfdfdf;
+
+}
+
+#message {
+
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+
+* {
+
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+#submit-button {
+
+    background-image: url(Assets/SVG/blob6.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(126, 126, 126);
+    border: none;
+    height: 100px;
+    width: 100px;
+    font: bold15px arial,sans-serif;
+    text-shadow: none;
+    
+}
+
+.submitbuttonclass {
+
+    width: 1050px;
+
+}
+
+textarea {
+
+    width: 24%;
+    height: 200px;
+
+}
+
+.trait { 
+    
+    border-bottom: 2px solid;
+    width: 30%;
+    padding-top: 4%;
+    margin-left: 35%;
+
+}
+
+/* FOOTER */
+
+.footer-items li {
+
+    padding: 25px;
+    list-style: none;
+    
+}
+    
+a:link, a:visited {
+    
+    text-decoration: none;
+    color: black;
+    
+    }
+    
+.footer-items {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 7%;
+
+    }
+
+#paracontact {
+
+    width: 300px;
+    
+    }
