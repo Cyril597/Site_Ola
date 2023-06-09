@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Josefin+Sans:wght@100;300&display=swap');
+
+.navbar{/*background: linear-gradient(to top, rgba(0,0,0,0.2), rgba(255,255,255,1));*/
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    background:linear-gradient(to top,rgba(255,255,255,0),rgba(255,255,255,0.7));
+    /*box-shadow: 0px 0px 30px 5px;*/}
+
+
+#ensemble{display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+
+.collapse{width: 100%;
+    }
+
+#page{width: 100%; 
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+padding-left: 3%;
+padding-right:2%
+
+        }
+
+
+
+.nav-link{font-size: 1.8em;
+        font-weight: 400;
+        color: black;
+        font-family: 'Pompiere', cursive;
+        width: 110%;
+        padding: 30%;
+    }
+
+    #nav-link-galerie {
+            background-image: url(SVG/blob10pxsvg.svg);
+            background-repeat: no-repeat;
+            background-size: 102px;
+            background-position: center;
+    }
+    #nav-link-pro {
+            background-image: url(SVG/blob1.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+    }
+    #nav-link-fermente {
+            background-image: url(SVG/blob4.svg);
+            background-repeat: no-repeat;
+            background-size: 120px;
+            background-position: center;
+    }
+    #nav-link-contact {
+            background-image: url(SVG/blob5.svg);
+            background-repeat: no-repeat;
+            background-size: 110px;
+            background-position: center;
+            
+    }
+form, input, option, label, select, .titre-contact {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+    
+}
+
+.submitbuttonclass {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+input, select, option {
+
+    background: #ffffff;
+    border-color: #dfdfdf;
+
+}
+
+#message {
+
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+
+* {
+
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+#submit-button {
+
+    background-image: url(Assets/SVG/blob6.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(126, 126, 126);
+    border: none;
+    height: 100px;
+    width: 100px;
+    font: bold15px arial,sans-serif;
+    text-shadow: none;
+    
+}
+
+.submitbuttonclass {
+
+    width: 1050px;
+
+}
+
+textarea {
+
+    width: 24%;
+    height: 200px;
+
+}
+
+.trait { 
+    
+    border-bottom: 2px solid;
+    width: 30%;
+    padding-top: 4%;
+    margin-left: 35%;
+
+}
+
+/* FOOTER */
+
+.footer-items li {
+
+    padding: 25px;
+    list-style: none;
+    
+}
+    
+a:link, a:visited {
+    
+    text-decoration: none;
+    color: black;
+    
+    }
+    
+.footer-items {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 7%;
+
+    }
+
+#paracontact {
+
+    width: 300px;
+    
+    }
+
+    /* RESPONSIVE */
+
+@media screen and (min-width:992px) and (max-width:1300px) {
+
+        #T_V{position: absolute;
+                left:20px;
+                width:100%}
+
+        /**Fin Header**/
+
+@media screen and (min-width:650px) and  (max-width:991.9px) {
+
+    .navbar-toggler{position:relative;
+        top: 50px;
+        }
+        
+        .navbar{background: linear-gradient(to bottom,rgba(255,255,255,0.6),rgba(255,255,255,0));}
+
+        #logo{width:0px;
+                height:0px;}
+
+        #page{display: flex;
+                flex-direction: column;
+                position: relative;
+                left: -30px;
+                top:60px;
+                }
+
+        #page li{width: 100%;}
+
+        .nav-link{font-size: 1.8em;
+                width: 30%;
+                padding:1%;
+                margin: 0%;
+                color:white !important;
+                }
+
+        .nav-link:hover{background-color: rgba(0,0,0,0.5)}
+
+
+                #nav-link-galerie {
+                        background-image: url(SVG/blob10pxsvg.svg);
+                        background-repeat: no-repeat;
+                        background-size: 0px;
+                        background-position: center;
+                }
+                #nav-link-pro {
+                        background-image: url(SVG/blob1.svg);
+                        background-repeat: no-repeat;
+                        background-size:0px;
+                        background-position: center;
+                }
+                #nav-link-fermente {
+                        background-image: url(SVG/blob4.svg);
+                        background-repeat: no-repeat;
+                        background-size: 0px;
+                        background-position: center;
+                }
+                #nav-link-contact {
+                        background-image: url(SVG/blob5.svg);
+                        background-repeat: no-repeat;
+                        background-size: 0px;
+                        background-position: center;
+                        
+                }
+
+        #T_V{position:absolute;
+                left: 120px;
+        width:70%;} 
+
+        /**Fin Header**/
+
+        #marque{display: flex;
+                flex-direction: column;}
+
+        #Logo_2{width: 400px;
+                height: 330px;}
+
+        #explication {width: 100%;} 
+
+        /**Fin Section Marque**/
+
+        #kombucha{display: flex;
+                flex-direction: column-reverse;}
+
+        #menu{padding: 0%;
+                margin: 0%;}
+        
+        .bouteille{margin:0%;
+                padding: 0%;}
+
+        .accordion{margin: 0%;
+                padding: 0%;
+                position: relative;
+                bottom:350px;
+                width: 50%;
+                }
+
+        .accordion-item{margin: 0%;
+                        padding: 0%;}
+
+        .accordion-button{margin:0%;
+                        padding:5%;
+                        }
+ */
+
+        /**Fin Section Kumbucha **/
+
+        #lieu { display: flex;
+                flex-direction: column-reverse;
+                }
+        
+        iframe{ width: 100%;
+                height:300px;}
+
+                #info_lieu{width: 100%;}
+        
+                #info_lieu h1,#info_lieu h2,#info_lieu h3{margin-bottom: 4%;}
+
+        .footer-items{padding-right: 0%;
+                        padding-left: 0%;
+                        margin-right: 10%;}
+
+        #mention{padding: 0%;
+                margin: 0%;}
+        }}
+
+@media screen and (max-width:649.9px) {
+
+
+      .navbar-toggler{position:relative;
+        top: 50px;
+        }
+        
+        #T_V{position: absolute;
+                left:70px;
+                width: 60%;}
+
+                #logo{width:0px;
+                        height:0px;}
+        
+                #page{display: flex;
+                        flex-direction: column;
+                        position: relative;
+                        left: -10px;
+                        top:60px;
+                        }
+                        #page li{width: 100%;}
+
+                        .nav-link{font-size: 1.5em;
+                                width: 50%;
+                                padding:1%;
+                                margin: 0%;
+                                color:white !important;
+                                }
+                
+                        .nav-link:hover{background-color: rgba(0,0,0,0.5)}
+                
+                
+                                #nav-link-galerie {
+                                        background-image: url(SVG/blob10pxsvg.svg);
+                                        background-repeat: no-repeat;
+                                        background-size: 0px;
+                                        background-position: center;
+                                }
+                                #nav-link-pro {
+                                        background-image: url(SVG/blob1.svg);
+                                        background-repeat: no-repeat;
+                                        background-size:0px;
+                                        background-position: center;
+                                }
+                                #nav-link-fermente {
+                                        background-image: url(SVG/blob4.svg);
+                                        background-repeat: no-repeat;
+                                        background-size: 0px;
+                                        background-position: center;
+                                }
+                                #nav-link-contact {
+                                        background-image: url(SVG/blob5.svg);
+                                        background-repeat: no-repeat;
+                                        background-size: 0px;
+                                        background-position: center;
+                                        
+                                }
+
+
+                                #marque{display: flex;
+                                        flex-direction: column;}
+                        
+                                #Logo_2{width: 250px;
+                                        height: 210px;}
+                        
+                                #explication {width: 100%;}
+
+                                #explication h1{font-size: 2em;}
+
+                                #explication p {font-size: 1.3em;}
+
+                                #kombucha{display: flex;
+                                        flex-direction: column-reverse;}
+
+                                        #menu{padding: 0%;
+                                                margin: 0%;}
+                                        
+                                        .bouteille{margin:0%;
+                                                padding: 0%;}
+                                
+                                        .accordion{margin: 0%;
+                                                padding: 0%;
+                                                position: relative;
+                                                bottom:350px;
+                                                width: 50%;
+                                                }
+                                
+                                        .accordion-item{margin: 0%;
+                                                        padding: 0%;}
+                                
+                                        .accordion-button{margin:0%;
+                                                        padding:5%;
+                                                        }
+
+                                        #bouteille_2{width: 300px;
+                                                        height: 300px;} 
+
+                                /**Fin Section Marque **/
+
+
+#lieu { display: flex;
+                flex-direction: column-reverse;
+                }
+        
+        iframe{ width: 100%;
+                height:300px;}
+
+                #info_lieu{width: 100%;}
+        
+                #info_lieu h1,#info_lieu h2,#info_lieu h3{margin-bottom: 4%;}
+
+        .footer-items{padding-right: 0%;
+                        padding-left: 0%;
+                        margin-right: 10%;}
+
+        #mention{padding: 0%;
+                margin: 0%;}
+
+                #info_lieu h1{font-size: 2em;}
+                #info_lieu h2{font-size:1.6em;}
+                #info_lieu h3{font-size: 1.3em;}
+
+
+                /**Fin de Section Lieu**/
+
+                #Img{display: flex;
+                flex-direction: column;
+                }
+
+                #Img img {width: 230px;}
+
+                #toki{width: 200px !important;
+                        margin-bottom: 10%;}
+
+
+                /**Fin Remerciement**/
+
+                .footer-items{display: flex;
+                                flex-direction: column;}
+                }
