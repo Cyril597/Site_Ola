@@ -132,7 +132,7 @@ height: 800px;
 
 #title{
     position: absolute;
-    top: 30%;
+    top: 55%;
     background-color: #000000;
     color: white;
     padding: 1%;
@@ -199,5 +199,7 @@ h2{
         font-size: 95%;
     }
 }
+
+
 
 /* Fin Responsive */

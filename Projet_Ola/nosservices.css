@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
 .carousel-item{
     
     width: 100%;
@@ -5,7 +9,7 @@
 }
 
 img{
-    width: 60%;
+    width: 8%;
 }
 
 .content{
@@ -97,7 +101,77 @@ img{
         }
     }
     
+
+    /* Navbar */
+
+.container-fluid{display: flex;
+    flex-direction: column;
+   
+    background-size: 500px;
+    background-position-y: -35px;
+    background-position-x: -80px;
+    padding: 1%;
+    z-index: 1;
+   }
+
+
+.navbar{
+margin: 0%;
+padding: 0%;
+z-index: 1;
+}
+
+
+#ensemble{display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+
+.collapse{width: 100%;
+padding-left: 3%;
+}
+
+#page{width: 100%; 
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+
+.nav-item{margin-right:5%;}
+
+.nav-item:nth-child(5){margin-left: 5%;}
+
+.nav-link{font-size: 1.5em;
+font-weight: 600;
+color: black;
+border: 2px solid;
+border-radius: 20px;
+}
+
+.nav-link:hover{border-bottom: 2px solid !important;
+    color: black;}
+
+#bouteille{position: relative;
+top: -50px;
+}
+
+
+p{
+    margin-top: 5%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Fin Navbar */
     
+
+
+
     @media (max-width:500px) {
         #img3{
             width: 100%;
