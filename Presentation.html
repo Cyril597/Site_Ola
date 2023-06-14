@@ -16,68 +16,61 @@
   />
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Dr+Sugiyama&family=Fredericka+the+Great&family=Pompiere&display=swap" rel="stylesheet">
   <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='Presentation.css'>
-    <script src='main.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='presentation.css'>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg">
+        <div  class="container-fluid">
+        
+        <button
+            class="navbar-toggler border-3 "
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon fs-4"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul id="page" class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" id="nav-link-galerie" href="nosservices.html"
+                >Nos services</a
+                >
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="nav-link-galerie" href="Galerie.html"
+                >Galerie</a
+                >
+            </li>
+            <a href="Accueil.html"><img
+            id="logo"
+            src="Img/Logos_entreprise_SSBG/Logo l'AB_Logo 1.png"
+            alt="logo"
+            width="150"
+            height="150"
+            /></a>
+            <li class="nav-item">
+                <a class="nav-link" id="nav-link-fermente" href="Presentation.html"
+                >Qui fermente ?</a
+                >
+            </li>
             
-            <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-            >
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul id="page" class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Accueil</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"
-                    >Professionnel</a
-                    >
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Particulier</a>
-                </li>
-                <img
-                id="logo"
-                src="Img/Logos_entreprise_SSBG/Logo l'AB_Logo 1.png"
-                alt="logo"
-                width="150"
-                height="150"
-                />
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Traiteur</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"
-                    >Qui fermente ?</a
-                    >
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"
-                    >Contact</a
-                    >
-                </li>
-            </div>
-      </nav>
+            <li class="nav-item">
+                <a class="nav-link" id="nav-link-contact" href="Contact.html"
+                >Contact</a
+                >
+            </li>
+        </div>
+  </nav>
     </header>
-    <hr id="sep">
-
-
-    
+ 
     <div class="imgdisplay">
         <img id="pdtimg" src="Img/IMG_8973.jpg" alt="">
     </div>
@@ -103,17 +96,39 @@
      épanouissante. Contactez-moi pour en savoir plus !
 </p>
         </div>
-
-        
-        
+ 
     </section>
-<hr>
+
+    <hr>
+
+    <footer>
+      <nav class="footer-nav">
+          <div class="footer-div">
+          <ul class="footer-items">
+                  <li>
+                     <a href="Accueil.html"><img src="Img/Logos_entreprise_SSBG/Logo l'AB_L'AB linéaire flat.png" alt="Logo" width="200" height="40"></a>
+                  </li>
+                  <li>
+                      <p id="paragraphe-contact">Ola Sinelle Zevounou</p>
+                      <p id="paracontact">ola.zevounou@latelier-des-bulles.fr</p>
+                      <p>0695595045</p>
+                  </li>
+                  <li>
+                      <a href="Mentions-legales.html">Mentions légales</a>
+                  </li>
+              </ul>
+          </div>
+      </nav>
+  </footer>
 
 
+    <script src='navbar.js'></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
+
 </body>
+
 </html>
