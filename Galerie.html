@@ -12,7 +12,7 @@
   />
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Dr+Sugiyama&family=Fredericka+the+Great&family=Pompiere&display=swap" rel="stylesheet">
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='Galerie.css'>
     <script src='galerie.js'></script>
@@ -21,10 +21,10 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
+            <div  class="container-fluid">
             
             <button
-                class="navbar-toggler"
+                class="navbar-toggler border-3 "
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent"
@@ -32,44 +32,67 @@
                 aria-expanded="false"
                 aria-label="Toggle navigation"
             >
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon fs-4"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul id="page" class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <div class="dropdown">
+                        <button
+                          class="btn "
+                          id="nav-link-pro"
+                          type="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Nos Services
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a class="dropdown-item" href="#">Professionnel</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#">Particulié</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" id="sans" href="#">Traiteur</a>
+                          </li>
+                        </ul>
+                      </div>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Accueil</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"
-                    >Professionnel</a
+                    <a class="nav-link" id="nav-link-galerie" href=""
+                    >Galerie</a
                     >
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Particulier</a>
-                </li>
-                <img
+                <a href="Accueil.html"><img
                 id="logo"
                 src="Img/Logos_entreprise_SSBG/Logo l'AB_Logo 1.png"
                 alt="logo"
                 width="150"
                 height="150"
-                />
+                /></a>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Traiteur</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"
+                    <a class="nav-link" id="nav-link-fermente" href="Presentation.html"
                     >Qui fermente ?</a
                     >
                 </li>
+                
                 <li class="nav-item">
-                    <a class="nav-link" href="#"
+                    <a class="nav-link" id="nav-link-contact" href="contact.html"
                     >Contact</a
                     >
                 </li>
             </div>
       </nav>
+      <div id="video">
+        <h1 id="T_V">Le Kombucha, rafraichissant et bon pour votre santé</h1>
+        <video src="TestV1.mp4" alt="video" loop autoplay muted></video>
+      </div>
+      <div class="trait">
+                            
+      </div>
     </header>
+
+    
     <div class="rows">
 
         <div class="row">

@@ -1,84 +1,96 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Josefin+Sans:wght@100;300&display=swap');
 
-.navbar{/*background: linear-gradient(to top, rgba(0,0,0,0.2), rgba(255,255,255,1));*/
-    margin: 0%;
-    padding: 0%;
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-    padding-left: 5%;
-    background:linear-gradient(to top,rgba(255,255,255,0),rgba(255,255,255,0.7));
-    /*box-shadow: 0px 0px 30px 5px;*/}
+ /* Navbar */
 
 
-#ensemble{display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-
-.collapse{width: 100%;
-    padding-left: 3%;
-    }
-
-#page{width: 100%; 
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-items: center;
+ .navbar{/*background: linear-gradient(to top, rgba(0,0,0,0.2), rgba(255,255,255,1));*/
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        z-index: 1;
+        background:linear-gradient(to top,rgba(255,255,255,0),rgba(255,255,255,0.7));
+        /*box-shadow: 0px 0px 30px 5px;*/}
+      
+      .scroll{
+        background-color: white !important;
+        opacity: 1 !important;
+      }
+      
+      #ensemble{display: flex;
+            flex-direction: row;
+            justify-content: space-between;
         }
-
-
-.nav-item{margin-right:5%;}
-
-.nav-item:nth-child(5){margin-left: 5%;}
-
-.nav-link{font-size: 1.8em;
-        font-weight: 600;
-        color: black;
-        font-family: 'Pompiere', cursive;
-        width: 110%;
-        padding: 30%;
-    }
-
-    #nav-link-accueil {
-            background-image: url(SVG/blob10pxsvg.svg);
-            background-repeat: no-repeat;
-            background-size: 102px;
-            background-position: center;
-    }
-    #nav-link-pro {
-            background-image: url(SVG/blob1.svg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-    }
-    #nav-link-particulier {
-            background-image: url(SVG/blob2.svg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-    }
-    #nav-link-traiteur {
-            background-image: url(SVG/blob3.svg);
-            background-repeat: no-repeat;
-            background-size: 118px;
-            background-position: center;
-    }
-    #nav-link-fermente {
-            background-image: url(SVG/blob4.svg);
-            background-repeat: no-repeat;
-            background-size: 120px;
-            background-position: center;
-    }
-    #nav-link-contact {
-            background-image: url(SVG/blob5.svg);
-            background-repeat: no-repeat;
-            background-size: 110px;
-            background-position: center;
-            
-    }
-
+      
+      
+      .collapse{width: 100%;
+        }
+      
+      #page{width: 100%; 
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      padding-left: 3%;
+      padding-right:2%
+      
+            }
+      
+      
+      
+      .nav-link{font-size: 1.8em;
+            font-weight: 600;
+            color: black;
+            font-family: 'Pompiere', cursive;
+            width: 110%;
+            padding: 30%;
+        }
+      
+        .btn{font-size: 1.8em;
+                font-weight: 600;
+                color:black;
+                font-family: 'Pompiere', cursive;
+                width: 150%;
+                padding: 0%;
+                height: 146px;
+        }
+      
+        #nav-link-galerie {
+                background-image: url(SVG/blob10pxsvg.svg);
+                background-repeat: no-repeat;
+                background-size: 102px;
+                background-position: center;
+        }
+        #nav-link-pro {
+                background-image: url(SVG/blob1.svg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+        }
+        #nav-link-fermente {
+                background-image: url(SVG/blob4.svg);
+                background-repeat: no-repeat;
+                background-size: 120px;
+                background-position: center;
+        }
+        #nav-link-contact {
+                background-image: url(SVG/blob5.svg);
+                background-repeat: no-repeat;
+                background-size: 110px;
+                background-position: center;
+                
+        }
+      
+        #T_V{position: absolute;
+                top: 300px;
+                left: 550px;
+                font-size: 1.8em;
+                width: 30%;
+                text-align: center;
+                color: white;
+                font-family: 'Pompiere', cursive;}
+      
+      
+      /**Fin Header**/
 
 .trait { 
     
@@ -152,89 +164,158 @@ footer {
 
 /* RESPONSIVE */
 
-@media screen and (min-width:992px) and (max-width:1300px) {
-
-    #T_V{position: absolute;
-            left:20px;
-            width:100%}
-
-    /**Fin Header**/
 
 
-}
+ /* responsive nav bar */
 
-@media screen and (min-width:650px) and  (max-width:991.9px) {
-
-.navbar-toggler{position:relative;
-    top: 50px;
+ @media screen and (min-width:750px) and  (max-width:991.9px) {
+        .navbar{background:linear-gradient(to top, rgba(0,0,0,0),rgba(0,0,0,0))}
+    
+        #logo{width:0px;
+                height:0px;}
+    
+        #page{display: flex;
+                flex-direction: column;
+                margin: 0%;
+                padding-left: 50%;
+                }
+    
+        #page li{width: 150%;}
+    
+        .nav-link{font-size: 1.8em;
+                width: 30%;
+                padding:1%;
+                margin: 0%;
+                }
+    
+                .btn{font-size: 1.8em;
+                        width: 180%;
+                        padding:0%;
+                        margin:0%;
+                        height: 50px;
+                        }
+    
+        .dropdown{padding-right: 142%;
+                width: 170%;}
+    
+        .nav-link:hover{background-color: rgba(0,0,0,0.5);}
+    
+        .btn:hover{background-color: rgba(0,0,0,0.5);}
+    
+    
+                #nav-link-galerie {
+                        background-image: url(SVG/blob10pxsvg.svg);
+                        background-repeat: no-repeat;
+                        background-size: 0px;
+                        background-position: center;
+                }
+                #nav-link-pro {
+                        background-image: url(SVG/blob1.svg);
+                        background-repeat: no-repeat;
+                        background-size:0px;
+                        background-position: center;
+                }
+                #nav-link-fermente {
+                        background-image: url(SVG/blob4.svg);
+                        background-repeat: no-repeat;
+                        background-size: 0px;
+                        background-position: center;
+                }
+                #nav-link-contact {
+                        background-image: url(SVG/blob5.svg);
+                        background-repeat: no-repeat;
+                        background-size: 0px;
+                        background-position: center;
+                        
+                }
+    
+        #T_V{position:absolute;
+                left: 120px;
+        width:70%;}
+    
     }
     
-    .navbar{background: linear-gradient(to bottom,rgba(255,255,255,0.6),rgba(255,255,255,0));}
-
-    #logo{width:0px;
-            height:0px;}
-
-    #page{display: flex;
-            flex-direction: column;
-            position: relative;
-            left: -30px;
-            top:60px;
-            }
-
-    #page li{width: 100%;}
-
-    .nav-link{font-size: 1.8em;
-            width: 30%;
-            padding:1%;
-            margin: 0%;
-            color:white !important;
-            }
-
-    .nav-link:hover{background-color: rgba(0,0,0,0.5)}
-
-
-            #nav-link-galerie {
-                    background-image: url(SVG/blob10pxsvg.svg);
-                    background-repeat: no-repeat;
-                    background-size: 0px;
-                    background-position: center;
-            }
-            #nav-link-pro {
-                    background-image: url(SVG/blob1.svg);
-                    background-repeat: no-repeat;
-                    background-size:0px;
-                    background-position: center;
-            }
-            #nav-link-fermente {
-                    background-image: url(SVG/blob4.svg);
-                    background-repeat: no-repeat;
-                    background-size: 0px;
-                    background-position: center;
-            }
-            #nav-link-contact {
-                    background-image: url(SVG/blob5.svg);
-                    background-repeat: no-repeat;
-                    background-size: 0px;
-                    background-position: center;
+        @media screen and (max-width:749.9px) {
+    
+    
+            
+            #T_V{position: absolute;
+                    left:110px;
+                    width: 60%;}
+    
+                    .navbar{background:linear-gradient(to top, rgba(0,0,0,0),rgba(0,0,0,0))}
+    
+                    #logo{width:0px;
+                            height:0px;}
+            
+                    #page{display: flex;
+                            flex-direction: column;
+                            margin: 0%;
+                            padding-left: 50%;
+                            }
+            
+                    #page li{width: 150%;}
+            
+                    .nav-link{font-size: 1.8em;
+                            width: 50%;
+                            padding:1%;
+                            margin: 0%;
+                            }
+            
+                            .btn{font-size: 1.8em;
+                                    width: 180%;
+                                    padding:0%;
+                                    margin:0%;
+                                    height: 50px;
+                                    }
+            
+                    .dropdown{padding-right: 137%;
+                            width: 170%;}
+    
+                           
+                            .nav-link:hover{background-color: rgba(0,0,0,0.5)}
+    
+                            .btn:hover{background-color: rgba(0,0,0,0.5)}
                     
-            }
+                    
+                                    #nav-link-galerie {
+                                            background-image: url(SVG/blob10pxsvg.svg);
+                                            background-repeat: no-repeat;
+                                            background-size: 0px;
+                                            background-position: center;
+                                    }
+                                    #nav-link-pro {
+                                            background-image: url(SVG/blob1.svg);
+                                            background-repeat: no-repeat;
+                                            background-size:0px;
+                                            background-position: center;
+                                    }
+                                    #nav-link-fermente {
+                                            background-image: url(SVG/blob4.svg);
+                                            background-repeat: no-repeat;
+                                            background-size: 0px;
+                                            background-position: center;
+                                    }
+                                    #nav-link-contact {
+                                            background-image: url(SVG/blob5.svg);
+                                            background-repeat: no-repeat;
+                                            background-size: 0px;
+                                            background-position: center;
+                                            
+                                    }
+                                }
+    
+                                @media screen and (min-width:320px) and (max-width:400px) {
+                                    #T_V{position: absolute;
+                                        left:40px;
+                                        top:350px;
+                                        width:70%}
+                                
+                                }
+    
+                                /* responsive footer */
 
-    #T_V{position:absolute;
-            left: 120px;
-    width:70%;}
+                       
 
-    /**Fin Header**/
-    }
-    @media screen and (max-width:649.9px) {
-
-            .footer-items{display: flex;
-            flex-direction: column;}
-
-            footer {
-
-                margin: 0%;
-                position: relative;
-                padding-right: 50%;
-
-            }
-}
+                        
+    /* Fin Responsive */
