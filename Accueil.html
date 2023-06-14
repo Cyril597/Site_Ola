@@ -19,13 +19,12 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Dr+Sugiyama&family=Fredericka+the+Great&family=Pompiere&display=swap" rel="stylesheet">
     <link rel='stylesheet' type='text/css' media='screen' href='Accueil.css'>
-    <script src='main.js'></script>
 </head>
 <body>
 
     <header>
         <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
+            <div  class="container-fluid">
             
             <button
                 class="navbar-toggler border-3 "
@@ -40,11 +39,28 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul id="page" class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item" >
-                    <a class="nav-link" id="nav-link-pro" href="#"
-                    >Nos services</a
-                    >
-                </li>
+                    <div class="dropdown">
+                        <button
+                          class="btn "
+                          id="nav-link-pro"
+                          type="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Nos Services
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a class="dropdown-item" href="#">Professionnel</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#">Particulié</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" id="sans" href="#">Traiteur</a>
+                          </li>
+                        </ul>
+                      </div>
                 <li class="nav-item">
                     <a class="nav-link" id="nav-link-galerie" href=""
                     >Galerie</a
@@ -202,22 +218,8 @@
             <div id="menu">
                 <div id="bouteille">
                     <h1>Verveine et feuilles de cassis</h1>
-                <img id="bouteille_2" src="Black Minimalist Modern Cool Clothing Apparel Logo Design (1).png" alt="bouteille" width="500" height="500">
+                    <img id="bouteille_2" src="Img/21.png" alt="bouteille" width="700" height="700">
                 </div>
-                <div id="description">
-                    <p>Délicieux</p>
-                    <p>Pétillant</p>
-                    <p>Frais</p>
-                </div>
-                <div id="description_2">
-                    <p>Sans alcool</p>
-                    <p>Produit locaux</p>
-                </div>
-                <img  id="fleche1" class="fleche" src="Design sans titre.png" alt="fleche" width="150" height="100">
-                <img  id="fleche2" class="fleche" src="Design sans titre.png" alt="fleche" width="150" height="100">
-                <img id="fleche3" class="fleche" src="Design sans titre.png" alt="fleche" width="120" height="100">
-                <img  id="fleche4" class="fleche" src="Design sans titre.png" alt="fleche" width="120" height="100">
-                <img id="fleche5" class="fleche" src="Design sans titre.png" alt="fleche" width="120" height="100">
             </div>
         </section>
         <div  id="S_Bouteille"class="trait">
@@ -281,5 +283,6 @@
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
+    <script type="text/javascript" src='navbar.js'></script>
 </body>
 </html>
