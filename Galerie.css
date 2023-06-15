@@ -7,7 +7,7 @@
 .navbar{/*background: linear-gradient(to top, rgba(0,0,0,0.2), rgba(255,255,255,1));*/
   margin: 0%;
   padding: 0%;
-  position: fixed;
+ 
   width: 100%;
   z-index: 1;
   background:linear-gradient(to top,rgba(255,255,255,0),rgba(255,255,255,0.7));
@@ -57,30 +57,30 @@ padding-right:2%
   }
 
   #nav-link-galerie {
-          background-image: url(SVG/blob10pxsvg.svg);
-          background-repeat: no-repeat;
-          background-size: 102px;
-          background-position: center;
-  }
-  #nav-link-pro {
-          background-image: url(SVG/blob1.svg);
-          background-repeat: no-repeat;
-          background-size: cover;
-          background-position: center;
-  }
-  #nav-link-fermente {
-          background-image: url(SVG/blob4.svg);
-          background-repeat: no-repeat;
-          background-size: 120px;
-          background-position: center;
-  }
-  #nav-link-contact {
-          background-image: url(SVG/blob5.svg);
-          background-repeat: no-repeat;
-          background-size: 110px;
-          background-position: center;
-          
-  }
+        background-image: url(Img/SVG/blob10pxsvg.svg);
+        background-repeat: no-repeat;
+        background-size: 102px;
+        background-position: center;
+}
+#nav-link-pro {
+        background-image: url(Img/SVG/blob1.svg);
+        background-repeat: no-repeat;
+        background-size: 160px;
+        background-position:-15px;
+}
+#nav-link-fermente {
+        background-image: url(Img/SVG/blob4.svg);
+        background-repeat: no-repeat;
+        background-size: 155px;
+        background-position: center;
+}
+#nav-link-contact {
+        background-image: url(Img/SVG/blob5.svg);
+        background-repeat: no-repeat;
+        background-size: 110px;
+        background-position: center;
+        
+}
 
   #T_V{position: absolute;
           top: 300px;

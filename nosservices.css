@@ -75,7 +75,7 @@ height: 650px;
 
     .formdiv{
             position: absolute;
-            top: 20%;
+            top: 30%;
              color: white;
             padding: 1%;
             padding-left: 5%;
@@ -171,40 +171,32 @@ height: 650px;
         padding: 30%;
     }
   
-    .btn{font-size: 1.8em;
-            font-weight: 600;
-            color:black;
-            font-family: 'Pompiere', cursive;
-            width: 150%;
-            padding: 0%;
-            height: 146px;
-    }
-  
     #nav-link-galerie {
-            background-image: url(SVG/blob10pxsvg.svg);
-            background-repeat: no-repeat;
-            background-size: 102px;
-            background-position: center;
-    }
-    #nav-link-pro {
-            background-image: url(SVG/blob1.svg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-    }
-    #nav-link-fermente {
-            background-image: url(SVG/blob4.svg);
-            background-repeat: no-repeat;
-            background-size: 120px;
-            background-position: center;
-    }
-    #nav-link-contact {
-            background-image: url(SVG/blob5.svg);
-            background-repeat: no-repeat;
-            background-size: 110px;
-            background-position: center;
-            
-    }
+        background-image: url(Img/SVG/blob10pxsvg.svg);
+        background-repeat: no-repeat;
+        background-size: 102px;
+        background-position: center;
+}
+#nav-link-pro {
+        background-image: url(Img/SVG/blob1.svg);
+        background-repeat: no-repeat;
+        background-size: 160px;
+        background-position:-15px;
+}
+#nav-link-fermente {
+        background-image: url(Img/SVG/blob4.svg);
+        background-repeat: no-repeat;
+        background-size: 155px;
+        background-position: center;
+}
+#nav-link-contact {
+        background-image: url(Img/SVG/blob5.svg);
+        background-repeat: no-repeat;
+        background-size: 110px;
+        background-position: center;
+        
+}
+
   
     #T_V{position: absolute;
             top: 300px;
@@ -266,12 +258,6 @@ a:link, a:visited {
     /* responsive nav bar */
 
 @media screen and (min-width:750px) and  (max-width:991.9px) {
-
-    .formdiv{
-    top: 30%;
-    right: 30%;
-    }
-
     .navbar{background:linear-gradient(to top, rgba(0,0,0,0),rgba(0,0,0,0))}
 
     #logo{width:0px;
@@ -344,10 +330,7 @@ a:link, a:visited {
 
     @media screen and (max-width:749.9px) {
 
-        .formdiv{
-            top: 30%;
-            right: 30%;
-            }
+
         
         #T_V{position: absolute;
                 left:110px;

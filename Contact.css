@@ -38,30 +38,30 @@ padding-right:2%
     }
 
     #nav-link-galerie {
-            background-image: url(SVG/blob10pxsvg.svg);
-            background-repeat: no-repeat;
-            background-size: 102px;
-            background-position: center;
-    }
-    #nav-link-pro {
-            background-image: url(SVG/blob1.svg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-    }
-    #nav-link-fermente {
-            background-image: url(SVG/blob4.svg);
-            background-repeat: no-repeat;
-            background-size: 120px;
-            background-position: center;
-    }
-    #nav-link-contact {
-            background-image: url(SVG/blob5.svg);
-            background-repeat: no-repeat;
-            background-size: 110px;
-            background-position: center;
-            
-    }
+        background-image: url(Img/SVG/blob10pxsvg.svg);
+        background-repeat: no-repeat;
+        background-size: 101px;
+        background-position: center;
+}
+#nav-link-pro {
+        background-image: url(Img/SVG/blob1.svg);
+        background-repeat: no-repeat;
+        background-size: 155px;
+        background-position:-15px;
+}
+#nav-link-fermente {
+        background-image: url(Img/SVG/blob4.svg);
+        background-repeat: no-repeat;
+        background-size: 150px;
+        background-position: center;
+}
+#nav-link-contact {
+        background-image: url(Img/SVG/blob5.svg);
+        background-repeat: no-repeat;
+        background-size: 109px;
+        background-position: center;
+        
+}
 form, input, option, label, select, .titre-contact {
 
     display: flex;
@@ -104,7 +104,7 @@ input, select, option {
 
 #submit-button {
 
-    background-image: url(Assets/SVG/blob6.svg);
+    background-image: url(Img/SVG/blob3.svg);
     background-size: cover;
     background-repeat: no-repeat;
     color: rgb(126, 126, 126);

@@ -41,36 +41,28 @@
             width: 110%;
             padding: 30%;
         }
-
-        .btn{font-size: 1.8em;
-                font-weight: 600;
-                color:black;
-                font-family: 'Pompiere', cursive;
-                width: 150%;
-                padding: 0%;
-                height: 146px;
-        }
+       
 
         #nav-link-galerie {
-                background-image: url(SVG/blob10pxsvg.svg);
+                background-image: url(Img/SVG/blob10pxsvg.svg);
                 background-repeat: no-repeat;
                 background-size: 102px;
                 background-position: center;
         }
         #nav-link-pro {
-                background-image: url(SVG/blob1.svg);
+                background-image: url(Img/SVG/blob1.svg);
                 background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
+                background-size: 160px;
+                background-position:-15px;
         }
         #nav-link-fermente {
-                background-image: url(SVG/blob4.svg);
+                background-image: url(Img/SVG/blob4.svg);
                 background-repeat: no-repeat;
-                background-size: 120px;
+                background-size: 155px;
                 background-position: center;
         }
         #nav-link-contact {
-                background-image: url(SVG/blob5.svg);
+                background-image: url(Img/SVG/blob5.svg);
                 background-repeat: no-repeat;
                 background-size: 110px;
                 background-position: center;
