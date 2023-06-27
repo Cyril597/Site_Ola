@@ -62,16 +62,15 @@ padding-right:2%
         background-position: center;
         
 }
-form, input, option, label, select, .titre-contact {
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 25px;
-    
+
+
+label, input, select{
+        margin-bottom: 5%;
+        display: flex;
+        justify-content: baseline;
 }
+
 
 .submitbuttonclass {
 
@@ -86,15 +85,11 @@ input, select, option {
 
     background: #ffffff;
     border-color: #dfdfdf;
-
+        font-size: larger;
 }
 
-#message {
 
-    margin-left: 200px;
-    margin-right: 200px;
 
-}
 
 * {
 
@@ -122,13 +117,6 @@ input, select, option {
 
 }
 
-textarea {
-
-    width: 24%;
-    height: 200px;
-
-}
-
 .trait { 
     
     border-bottom: 2px solid;
@@ -136,6 +124,55 @@ textarea {
     padding-top: 4%;
     margin-left: 35%;
 
+}
+
+#div1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+}
+
+
+.titre-contact{
+        margin-top: 5%;
+        display: flex;
+        justify-content: baseline;
+        font-weight: 1000;
+        font-size: 4em;
+        margin-bottom: 1em;
+        margin-left: 5%;
+} 
+
+.formulaire-contact {
+
+        display: flex;
+        width: 100%;
+        justify-content: center;
+}
+
+.text-content{
+        margin-top: 2%;
+}
+
+
+
+main{
+        margin-left: 10%;
+       width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+}
+
+.all-content{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        margin-left: 5%;
+}
+
+input{
+        margin-right: 5em;
 }
 
 /* FOOTER */
@@ -164,10 +201,22 @@ a:link, a:visited {
 
     }
 
+#message{       
+        width: 100%;
+}
+
+#submit-button{
+        margin-right: 0%;
+}
+
 #paracontact {
 
     width: 300px;
     
+    }
+
+    form{
+        margin-left: 20%;
     }
 
     /* RESPONSIVE */
