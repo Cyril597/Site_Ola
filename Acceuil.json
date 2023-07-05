@@ -7,15 +7,14 @@
 
 
 
-
-"Desc_1": "Le kombucha est une boisson fermentée légèrement acide. Elle est préparée grâce à une culture symbiotique de bactéries et de levures que l'on plonge dans une solution sucrée à base de thé (traditionnellement du thé noir). À ce jour, les origines du kombucha restent inconnues. La boisson pourrait être millénaire, mais les premiers écrits la concernant ne remontent qu'à la fin du XIX siècle",
+"Titre_1": "Olabelbul, pour mettre du petillant dans la vie !",
+"Desc_1": "Envie d'un moment petillant sain et savoureux ? laissez vous tenter par la marque OlaBelbul, des boissons vivantes pour vous suprendre !",
 "Adresse_1": "Vous pouvez nous rencontrer au Tok'ici toute la semaine",
 "Adresse_2": "173 Rue des Bois Blancs, 59000 Lille",
 
 "Ingredient_1": "Eau",
 "Ingredient_2": "Sucre de canne",
-"Ingredient_3": "Sirop de betterave",
-"Ingredient_4": "Thé noir Sencha",
+
 "Ingredient_5": "Feuille de cassis",
 "Ingredient_6": "Verveine",
 "Ingredient_7": "Culture de Kombucha",
@@ -29,10 +28,8 @@
 "bienfait_7": "Hypocalorique",
 
 "Origine_1": "Eau",
-"Origine_2": "Sucre de canne",
-"Origine_3": "Sirop de betterave",
-"Origine_4": "Thé noir Sencha",
-"Origine_5": "Feuille de cassis",
-"Origine_6": "Verveine",
-"Origine_7": "Culture de Kombucha"
+"Origine_2": "Sucre de canne (Colombie)",
+"Origine_5": "Feuille de cassis (France)",
+"Origine_6": "Verveine (France)",
+"Origine_7": "Culture de Kombucha (Maison)"
 }

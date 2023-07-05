@@ -148,6 +148,20 @@ a:link, a:visited {
 
 }
 
+#button{
+        display: flex;
+        flex-direction: column; 
+}
+
+.btn-primary{
+        margin-bottom: 20%;
+}
+
+
+button{
+        display: flex;
+        flex-direction: column;
+}
 /* RESPONSIVE */
 
 

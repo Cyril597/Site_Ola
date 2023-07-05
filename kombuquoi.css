@@ -1,0 +1,132 @@
+/* Navbar */
+
+
+.navbar{/*background: linear-gradient(to top, rgba(0,0,0,0.2), rgba(255,255,255,1));*/
+    margin: 0%;
+    padding: 0%;
+   
+    width: 100%;
+    z-index: 1;
+    background:linear-gradient(to top,rgba(255,255,255,0),rgba(255,255,255,0.7));
+    /*box-shadow: 0px 0px 30px 5px;*/}
+  
+  .scroll{
+    background-color: white !important;
+    opacity: 1 !important;
+  }
+  
+  #ensemble{display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+  
+  
+  .collapse{width: 100%;
+    }
+  
+  #page{width: 100%; 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 3%;
+  padding-right:2%
+  
+        }
+  
+  
+  
+  .nav-link{font-size: 1.8em;
+        font-weight: 600;
+        color: black;
+        font-family: 'Pompiere', cursive;
+        width: 110%;
+        padding: 30%;
+    }
+  
+    .btn{font-size: 1.8em;
+            font-weight: 600;
+            color:black;
+            font-family: 'Pompiere', cursive;
+            width: 150%;
+            padding: 0%;
+            height: 146px;
+    }
+  
+    #nav-link-galerie {
+          background-image: url(Img/SVG/blob10pxsvg.svg);
+          background-repeat: no-repeat;
+          background-size: 102px;
+          background-position: center;
+  }
+  #nav-link-pro {
+          background-image: url(Img/SVG/blob1.svg);
+          background-repeat: no-repeat;
+          background-size: 160px;
+          background-position:-15px;
+  }
+  #nav-link-fermente {
+          background-image: url(Img/SVG/blob4.svg);
+          background-repeat: no-repeat;
+          background-size: 155px;
+          background-position: center;
+  }
+  #nav-link-contact {
+          background-image: url(Img/SVG/blob5.svg);
+          background-repeat: no-repeat;
+          background-size: 110px;
+          background-position: center;
+          
+  }
+  
+    #T_V{position: absolute;
+            top: 300px;
+            left: 550px;
+            font-size: 1.8em;
+            width: 30%;
+            text-align: center;
+            color: white;
+            font-family: 'Pompiere', cursive;}
+  
+  
+  /**Fin Header**/
+
+  .trait { border-bottom: 2px solid;
+    width: 30%;
+    padding-top: 4%;
+    margin-left: 35%;}
+
+
+    /* FOOTER */
+
+.footer-items li {
+
+    padding: 25px;
+    list-style: none;
+    
+}
+    
+a:link, a:visited {
+    
+    text-decoration: none;
+    color: black;
+    
+    }
+    
+.footer-items {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 7%;
+
+    }
+
+#paracontact {
+
+    width: 300px;
+    
+    }
+
+    /* fin FOoter */

@@ -85,7 +85,7 @@ video{  object-fit: cover;
         #T_V{position: absolute;
                 top: 300px;
                 left: 35%;
-                font-size: 1.8em;
+                font-size: 2em;
                 width: 30%;
                 text-align: center;
                 color: white;
@@ -140,7 +140,7 @@ video{  object-fit: cover;
 
 
 #kombucha{
-        background:linear-gradient(to top , rgb(255,255,255),rgb(250,241,212),rgb(250,241,212),rgb(255,255,255));
+       
         height: 1200px;
         display: flex;
         flex-direction: row;
@@ -159,8 +159,7 @@ video{  object-fit: cover;
 
 .accordion{width: 30%;
         position:relative;
-        bottom:100px;
-        padding-left: 10%;
+        
         }
 .accordion-item{background-color:rgba(250,241,212,0);
                 border: 2px lightgrey solid ;
@@ -218,6 +217,14 @@ iframe{border-radius: 5%;}
 
 
 #toki{border-radius: 50%;}
+
+
+.btn-primary {
+background-color: white;
+color: black;
+border-color: white;
+font-size: xx-large;
+}
 
 
 /**Debut Footer**/
