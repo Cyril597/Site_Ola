@@ -23,7 +23,6 @@
     color: #000000;
     background-color: #ffffff;
     border-radius: 5px;
-    box-shadow: 4px 4px #02000081;
     margin-top: 2%;
 }
 
@@ -77,17 +76,15 @@ height: 650px;
             position: absolute;
             top: 30%;
              color: white;
-            padding: 1%;
-            padding-left: 5%;
-            padding-right: 5%;
+            
             display: flex;
             flex-direction: column;
             align-items: center;
-            right: 37%;
+            right: 46%;
     }
 
     .form{
-        width: 80%;
+        width: 100%;
     }
 
     @media (max-width:993px) {
@@ -151,7 +148,7 @@ height: 650px;
   .collapse{width: 100%;
     }
   
-  #page{width: 100%; 
+  #page{width: 96%; 
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -172,27 +169,27 @@ height: 650px;
     }
   
     #nav-link-galerie {
-        background-image: url(Img/SVG/blob10pxsvg.svg);
+        background-image: url(Img/SVG/blob4.svg);
         background-repeat: no-repeat;
-        background-size: 102px;
+        background-size: 145px;
         background-position: center;
 }
 #nav-link-pro {
         background-image: url(Img/SVG/blob1.svg);
         background-repeat: no-repeat;
-        background-size: 160px;
+        background-size: 143px;
         background-position:-15px;
 }
 #nav-link-fermente {
         background-image: url(Img/SVG/blob4.svg);
         background-repeat: no-repeat;
-        background-size: 155px;
+        background-size: 145px;
         background-position: center;
 }
 #nav-link-contact {
         background-image: url(Img/SVG/blob5.svg);
         background-repeat: no-repeat;
-        background-size: 110px;
+        background-size: 109px;
         background-position: center;
         
 }
@@ -209,6 +206,11 @@ height: 650px;
   
   
   /**Fin Header**/
+
+h1{
+    font-family: 'Pompiere', cursive;
+}
+
   .footer-items li {
 
     padding: 25px;

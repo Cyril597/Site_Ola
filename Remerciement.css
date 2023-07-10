@@ -44,7 +44,7 @@
         padding: 30%;
     }
   
-    btn{font-size: 1.8em;
+    .btn{font-size: 1.8em;
             font-weight: 600;
             color:black;
             font-family: 'Pompiere', cursive;
@@ -54,9 +54,9 @@
     }
   
     #nav-link-galerie {
-      background-image: url(Img/SVG/blob10pxsvg.svg);
+      background-image: url(Img/SVG/blob4.svg);
       background-repeat: no-repeat;
-      background-size: 102px;
+      background-size: 145px;
       background-position: center;
 }
 #nav-link-pro {
@@ -91,42 +91,51 @@
   
   /**Fin Header**/
 
-  .trait { border-bottom: 2px solid;
-    width: 30%;
-    padding-top: 4%;
-    margin-left: 55%;}
-
-#img{
-  width: 40%;
-  margin-bottom: 5%;
-  margin-top: 5%;
+.subtitle{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      font-size: 1.5em;
+      margin-bottom: 4%;
 }
 
-#pic{
-  display: flex;
-  justify-content: space-evenly;
+p{
 }
-   h1,h2,h3{
-    margin-bottom: 4%;
-    margin-top: 5%;
-   }
+
+ul{
+      list-style: none;
+}
+
+main h1{
+      font-size: 2.2em;
+}
+
 main{
-  width: 70%;
+      font-size: 1.5em;
+      width: 85%;
+}
+a{
+      color: black;
+      font-weight: 400;
+      text-decoration: underline;
 }
 
 
-main p,main a{
-  font-size: x-large;
-  color: black;
-  text-align: justify;
-}
 
-.offctext{
-  font-size: smaller;
-}
+  .icontext{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding-bottom: 1em;
+      
+  }
 
-    /* FOOTER */
+  #icon{
+      margin-right: 2%;
+      width: 1%;
+  }
 
+/* Debut Footer */
 .footer-items li {
 
     padding: 25px;
@@ -134,19 +143,12 @@ main p,main a{
     
 }
     
-header a:link,header a:visited {
+footer a:link,footer a:visited {
     
     text-decoration: none;
     color: black;
     
     }
-
-   footer a:link,footer a:visited {
-    
-      text-decoration: none;
-      color: black;
-      
-      }
     
 .footer-items {
     
@@ -158,10 +160,21 @@ header a:link,header a:visited {
 
     }
 
-#paracontact {
+    @media screen and (max-width:1300px) {
+      main {
+            width: 100%;
+      }
 
-    width: 300px;
-    
+      .icontext{
+            display: flex;
+            flex-direction: column;
+      }
+      
+      .footer-items{padding-right: 0%;
+            padding-left: 0%;
+            margin-right: 10%;
+      display: flex;
+flex-direction: column;}
     }
+/*Fin de Footer*/
 
-    /* fin FOoter */

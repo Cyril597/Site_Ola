@@ -27,7 +27,7 @@
 .collapse{width: 100%;
     }
 
-#page{width: 100%; 
+#page{width: 96%; 
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -57,27 +57,27 @@ padding-right:2%
     }
 
     #nav-link-galerie {
-        background-image: url(Img/SVG/blob10pxsvg.svg);
+        background-image: url(Img/SVG/blob4.svg);
         background-repeat: no-repeat;
-        background-size: 102px;
+        background-size: 145px;
         background-position: center;
 }
 #nav-link-pro {
         background-image: url(Img/SVG/blob1.svg);
         background-repeat: no-repeat;
-        background-size: 160px;
+        background-size: 143px;
         background-position:-15px;
 }
 #nav-link-fermente {
         background-image: url(Img/SVG/blob4.svg);
         background-repeat: no-repeat;
-        background-size: 155px;
+        background-size: 145px;
         background-position: center;
 }
 #nav-link-contact {
         background-image: url(Img/SVG/blob5.svg);
         background-repeat: no-repeat;
-        background-size: 110px;
+        background-size: 109px;
         background-position: center;
         
 }
@@ -121,7 +121,7 @@ hr{
 .imgpres {
     background-image: url(Img/Logo_OLBB_OLBB-removebg-preview.png);
     background-size: cover;
-    width: 150%;
+    width: 250%;
     display: flex;
     flex-direction: column ;
     padding: 1%;
@@ -151,7 +151,7 @@ h2{
     margin-right: 5%;
 padding: 2%;
 font-family: 'Josefin Sans', sans-serif;
-margin-left: 10%;
+margin-left: 5%;
 }
 
 h1{
@@ -162,6 +162,7 @@ h1{
 
 
 #pdtimg{
+    -webkit-filter: blur(6px);
     object-fit: cover;
     width: 100%;
 height: 800px;
@@ -171,9 +172,9 @@ height: 800px;
 #title{
     position: absolute;
     top: 40%;
-    background-color: #000000;
-    color: white;
-border-radius: 10px;
+    color: black;
+    font-family: 'Pompiere', cursive;
+
 }
 
 #titledisp{
@@ -186,6 +187,14 @@ border-radius: 10px;
     justify-content: center;
 }
 
+#shéma{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.textepres{
+    font-size: 1.5em;
+}
 /* Fin Body */
 
 /* Debut Footer */

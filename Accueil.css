@@ -22,7 +22,7 @@
 .collapse{width: 100%;
         }
 
-#page{width: 100%; 
+#page{width: 96%; 
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -44,27 +44,27 @@
        
 
         #nav-link-galerie {
-                background-image: url(Img/SVG/blob10pxsvg.svg);
+                background-image: url(Img/SVG/blob4.svg);
                 background-repeat: no-repeat;
-                background-size: 102px;
+                background-size: 145px;
                 background-position: center;
         }
         #nav-link-pro {
                 background-image: url(Img/SVG/blob1.svg);
                 background-repeat: no-repeat;
-                background-size: 160px;
+                background-size: 143px;
                 background-position:-15px;
         }
         #nav-link-fermente {
                 background-image: url(Img/SVG/blob4.svg);
                 background-repeat: no-repeat;
-                background-size: 155px;
+                background-size: 145px;
                 background-position: center;
         }
         #nav-link-contact {
                 background-image: url(Img/SVG/blob5.svg);
                 background-repeat: no-repeat;
-                background-size: 110px;
+                background-size: 109px;
                 background-position: center;
                 
         }
@@ -111,7 +111,7 @@ video{  object-fit: cover;
                 color: black;}
 
 #explication p {font-size: 1.7em;
-                padding: 5%;
+                padding: 2%;
                 color: rgb(80,80,80);}
 
 
@@ -174,7 +174,16 @@ video{  object-fit: cover;
 .ingredients{list-style-type: circle;}
 
 /**Fin Liste **/
-
+#btnkombu{
+        font-size: 1.5em;
+        padding: 10%;
+        background-image: url(Img/SVG/blob6.svg);
+        background-repeat: no-repeat;
+                background-size: 100%;
+                background-position: center;
+                background-position-x: -8px;
+        margin-left: 26%;
+        }
 
 /**Debut section carte**/
 
@@ -226,6 +235,21 @@ border-color: white;
 font-size: xx-large;
 }
 
+#remerciement-texte{
+        font-size: 1.5em;
+}
+
+#btngal{
+        font-size: 1.5em;
+        padding: 7%;
+        background-image: url(Img/SVG/blob7.svg);
+        background-repeat: no-repeat;
+                background-size: 68%;
+                background-position: center;
+                margin-left: 50%;
+                
+}
+
 
 /**Debut Footer**/
 
@@ -264,7 +288,7 @@ font-size: xx-large;
 
 @media screen and (min-width:992px) and (max-width:1300px) {
 
-
+        
         
 
         #T_V{position: absolute;
@@ -311,6 +335,7 @@ font-size: xx-large;
 }
 
 @media screen and (min-width:750px) and  (max-width:991.9px) {
+        
         .navbar{background:linear-gradient(to top, rgba(0,0,0,0),rgba(0,0,0,0))}
 
         #logo{width:0px;
@@ -372,10 +397,31 @@ font-size: xx-large;
                 }
 
         #T_V{position:absolute;
-                left: 120px;
+                left: 140px;
         width:70%;}
 
-        /**Fin Header**/
+
+        #btngal{
+                background-size: 130%;
+                margin-left: 0%;
+}
+
+#btnkombu{
+        font-size: 1.5em;
+        padding: 15%;
+        background-image: url(Img/SVG/blob6.svg);
+        background-repeat: no-repeat;
+                background-size: 100%;
+                background-position: center;
+                background-position-x: -10px;
+        margin-left: 20%;
+        
+       
+        }
+
+     
+        
+      
 
         #marque{display: flex;
                 flex-direction: column;}
@@ -395,10 +441,10 @@ font-size: xx-large;
         
 
         .accordion{margin: 0%;
-                padding: 0%;
+                padding: 15%;
                 position: relative;
                 bottom:350px;
-                width: 50%;
+                width: 100%;
                 }
 
         .accordion-item{margin: 0%;
@@ -429,6 +475,8 @@ font-size: xx-large;
 
         #mention{padding: 0%;
                 margin: 0%;}
+
+                
         }
 
 @media screen and (max-width:749.9px) {
@@ -586,7 +634,38 @@ font-size: xx-large;
                 .footer-items{display: flex;
                                 flex-direction: column;
                                 padding-left: 6%;}
-}
+
+                                        .accordion{margin-top: 50%;
+                                                margin-bottom: 50%;
+                                                padding: 0%;
+                                                position: relative;
+                                                bottom:300px;
+                                                width: 100%;
+                                                }
+
+                                                #btnkombu{
+                                                        padding: 13%;
+                                                        margin-left: 20%;
+                                                        position: relative;
+                                                        top: 130%;
+                                                        }
+                                                
+                                                        #btngal{  
+                                                                        background-size: 100%;
+                                                                        margin-left: 0%;
+                                                                        
+                                                        }
+                                                
+                                                        .accordion{margin-top: 50%;
+                                                                margin-bottom: 50%;
+                                                                padding: 0%;
+                                                                position: relative;
+                                                                bottom:300px;
+                                                                width: 100%;
+                                                                }
+                                                }
+                                
+
 
 
 @media screen and (max-width:500px) {
@@ -607,6 +686,25 @@ font-size: xx-large;
 
 .btn:hover{background-color: rgba(0,0,0,0.5)}
 
+#btnkombu{
+        padding: 13%;
+        margin-left: 15%;
+        position: relative;
+        top: 65%;
+        }
+
+        #btngal{  
+                        background-size: 100%;
+                        margin-left: 0%;
+                        
+        }
+
+        .accordion{margin-top: 10%;
+                padding: 0%;
+                position: relative;
+                bottom:300px;
+                width: 100%;
+                }
 }
 @media screen and (max-width:450px) {
 
@@ -623,25 +721,72 @@ font-size: xx-large;
         
         #bouteille h1 {font-size: 1.4em;}
         
+        #btngal{
+                background-size: 130%;
+                margin-left: 0%;
+}
+
+#btnkombu{
+        font-size: 1.5em;
+        padding: 10%;
+        background-image: url(Img/SVG/blob6.svg);
+        background-repeat: no-repeat;
+                background-size: 85%;
+                background-position: center;
+                background-position-x: 20px;
+        margin-left: 15%;
+        position: relative;
+        top: 80%;
+        }
+
+        .accordion{
+                margin-top: 25%;
+                width: 100%;
+        }
         
-        
+        #T_V{position: absolute;
+                left:70px;
+                top:300px;
+                width:70%}
         
         }
+        
 
 @media screen and (min-width:320px) and (max-width:400px) {
 
-        .dropdown{padding-left: 220%;
-                width: 420%;}
+        #btngal{
+                        background-size: 130%;
+                        margin-left: 0%;
+        }
+
+        #btnkombu{
+                font-size: 1.5em;
+                padding: 15%;
+                background-image: url(Img/SVG/blob6.svg);
+                background-repeat: no-repeat;
+                        background-size: 100%;
+                        background-position: center;
+                        background-position-x: -10px;
+                margin-left: 15%;
+                position: relative;
+                top: 80%;
+                }
+
+                .accordion{
+                        margin-top: 25%;
+                        width: 100%;
+                }
                 
-#bouteille_2{width: 350px;
-                height:350px;}
-
-#bouteille h1 {font-size: 1.4em;}
-
-
-#T_V{position: absolute;
-        left:40px;
-        top:350px;
-        width:70%}
-
-}
+                #T_V{position: absolute;
+                        left:60px;
+                        top:250px;
+                        width:70%}
+                
+                        .dropdown{padding-left: 220%;
+                                width: 420%;}
+                                
+                #bouteille_2{width: 350px;
+                                height:350px;}
+                
+                #bouteille h1 {font-size: 1.4em;}
+                }
